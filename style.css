@@ -2,10 +2,9 @@
     min-width: 100vw;
     background-color: #4d4d4d;
     margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    padding: 0;   
+    height: 60px;
+
 }
 
 body {
@@ -15,29 +14,75 @@ body {
     background-color: #e8e8e8;
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 header .company_name {
     height: 50px;
     text-decoration: none;
     align-items: center;
     display: flex;
     color: white;
-    margin-left: 10;
 }
 
 header .name {
+    font-size: 30px;
     padding: 0;
     margin: 0;
     color: white;
 }
 
-.menu {
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+
+}
+
+.header__menu_items {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header__menu_item a {
+    text-decoration: none;
+}
+
+.header__menu_item button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    width: 120px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.header__menu_item button:hover {
+    background: rgba(255, 255, 255, 0.3);
+
+}
+
+
+/* .menu {
     align-items: center;
     list-style-type: none;
     display: flex;
     margin: 0 !important;
-}
+} */
 
-.menu_item {
+/* .menu_item {
     height: 50px;
     text-decoration: none;
     align-items: center;
@@ -47,24 +92,26 @@ header .name {
     margin-left: 75px;
 }
 
-.menu li{
+.menu{
     display: flex;
     align-items: center;
 }
 
-.menu li a{
+.menu a{
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-weight: 500;
+} */
+
+.links_img img{
+    height: 50px;
 }
 
-.links_img {
-    height: 50px;
-    width: 50px;
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+.links_img button {
+    background: transparent;
+    border: none;
+    height: 60px;
 }
 
 .links{
@@ -79,8 +126,6 @@ header .name {
     background-color: #4d4d4d;
     color: white;
     text-align: center;
-    display: flex;
-    justify-content: space-around;
 }
 
 
