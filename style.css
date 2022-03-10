@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;   
     height: 60px;
-
 }
 
 body {
@@ -40,9 +39,6 @@ header .name {
     align-items: center;
 }
 
-.header__menu {
-
-}
 
 .header__menu_items {
     list-style-type: none;
@@ -120,13 +116,10 @@ header .name {
 
 .footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
     background-color: #4d4d4d;
     color: white;
-    text-align: center;
-    display: flex;
 }
 
 .footer-wrapper {
@@ -135,6 +128,13 @@ header .name {
     align-items: center;
 }
 
+.footer_address a{
+    text-decoration: none;
+    color: #fff;
+}
 
-
+.footer_telephone a{
+    text-decoration: none;
+    color: #fff;
+}
 
