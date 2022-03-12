@@ -63,12 +63,13 @@ header .name {
     font-family: "Roboto";
     text-transform: uppercase;
     transition: 0.5s;
-}
+} 
 
 .header__menu_item button:hover {
     background: rgba(255, 255, 255, 0.3);
 
 }
+
 
 
 /* .menu {
@@ -113,6 +114,11 @@ header .name {
 .links{
     display:flex;
 }
+
+.map {
+    position left: ;
+}
+
 
 .footer {
     position: fixed;

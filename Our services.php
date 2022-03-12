@@ -16,11 +16,9 @@ require "Templates/header.php";
     </head>
 
     <body>
-        <div class="container">
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2252.6678501913875!2d37.74188693358961!3d55.62519498864408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab15954c7caf7%3A0xbe3eac7f11d31cbe!2z0YPQuy4g0JzRg9GB0Ysg0JTQttCw0LvQuNC70Y8sIDE1INC60L7RgNC_0YPRgSAxLCDQnNC-0YHQutCy0LAsIDExNTU4MA!5e0!3m2!1sru!2sru!4v1647096472789!5m2!1sru!2sru" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>    
-        </div>    
+
+        
+        
     </body>
 <?php
 require "Templates/footer.php"

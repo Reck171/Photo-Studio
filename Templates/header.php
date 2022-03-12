@@ -2,7 +2,7 @@
             <div class="container">
                 <div class="header-wrapper">
                     <div class=header_name>
-                        <a href="#" class="company_name">
+                        <a href="./index.php" class="company_name">
                             <h1 class="name">
                                 Photo Studio
                             </h1>
@@ -12,14 +12,14 @@
                         <nav>
                             <ul class="header__menu_items">
                                 <li class="header__menu_item">
-                                    <a href="#">
+                                    <a href="./index.php">
                                         <button>
                                             Главная
                                         </button>
                                     </a>
                                 </li>
                                 <li class="header__menu_item">
-                                    <a href="#">
+                                    <a href="./Our services.php">
                                         <button>
                                             Наши Услуги
                                         </button>
