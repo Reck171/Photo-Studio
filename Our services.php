@@ -16,7 +16,14 @@ require "Templates/header.php";
     </head>
 
     <body>
-
+        <div class="container">
+            <div class="product-item">
+                <img src="Assets/photostudia.jpg" alt="">
+                <h3>Съемка в фотостудии</h3>
+                <span class="price">₽ 1999</span>
+                </div>
+            </div>
+        </div>
         
         
     </body>
