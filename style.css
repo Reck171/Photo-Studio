@@ -116,9 +116,18 @@ header .name {
 }
 
 .map {
-    position left: ;
+    width: 400px; 
+    height: 300px;  
 }
 
+.text {
+    font-size: 20;
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+}
 
 .footer {
     position: fixed;
