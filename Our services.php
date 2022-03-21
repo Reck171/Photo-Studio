@@ -16,15 +16,60 @@ require "Templates/header.php";
     </head>
 
     <body>
-        <div class="container">
-            <div class="product-item">
-                <img src="Assets/photostudia.jpg" alt="">
-                <h3>Съемка в фотостудии</h3>
-                <span class="price">₽ 1999</span>
+        <section class="services-items">
+            <div class="container">
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Название услуги</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Название услуги</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Название услуги</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Название услуги</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Название услуги</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Название услуги</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        
+        </section>
         
     </body>
 <?php

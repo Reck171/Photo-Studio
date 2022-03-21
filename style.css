@@ -115,9 +115,9 @@ header .name {
     display:flex;
 }
 
-.map {
-    width: 400px; 
-    height: 300px;  
+.map iframe {
+    width: 500px;
+    height: 390px;
 }
 
 .text {
@@ -129,20 +129,55 @@ header .name {
     color: black;
 }
 
-.product-item {
-    width: 300px;
-    height: 500px;
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
+.services-items {
+    padding: 30px;
 }
 
-.product-item img {
-    width: 290px;
-    height: 350px;
+.card {
+    width: 300px;
+    height: 450px;
     border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.card img {
+    height: 260px;
+    max-height: 260px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 35px;
+    flex-wrap: wrap;
+}
+
+.card-content-wrapper {
+    padding: 5px 10px;
+    
+}
+
+.price {
+    text-align: center;
+}
+
+.jopa {
+    display: flex;
+    height: calc(100vh - 137px);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jopa__leftside,
+.jopa__rightside {
+    max-width: 50%;
 }
 
 .footer {
