@@ -16,6 +16,12 @@ require "Templates/header.php";
     </head>
 
     <body>
+        <div class="filter">
+            <button class="button button_type_all" data-filter="all">Все</button>
+            <button class="button button_type_photo1" data-filter="photo1">Фото 1</button>
+            <button class="button button_type_photo2" data-filter="photo2">Фото 2</button>
+            <button class="button button_type_photo3" data-filter="photo3">Фото 3</button>
+        </div>
         <section class="services-items">
             <div class="container">
                 <div class="cards-wrapper">
@@ -42,7 +48,55 @@ require "Templates/header.php";
                             <p>Описание услуги. Желательное не большое.</p>
                             <span class="price">$300</span>
                         </div>
-                    </div>        
+                    </div>  
+                    <div class="card photo1">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Фото1</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>
+                    <div class="card photo2">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Фото2</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>
+                    <div class="card photo3">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Фото3</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>  
+                    <div class="card photo1">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Фото1</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>
+                    <div class="card photo2">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Фото2</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>
+                    <div class="card photo3">
+                        <img src="Assets/photostudia.jpg" alt="cardphoto">
+                        <div class="card-content-wrapper">
+                            <h3>Фото3</h3>
+                            <p>Описание услуги. Желательное не большое.</p>
+                            <span class="price">$300</span>
+                        </div>
+                    </div>    
                 </div>
             </div>
         </section>
