@@ -9,7 +9,7 @@ require "Templates/header.php";
         <title>Photo Studio</title>
         <link rel="shortcut icon" href="Assets/icon.png">
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./CSS/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">

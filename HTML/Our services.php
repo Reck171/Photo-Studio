@@ -100,7 +100,7 @@ require "Templates/header.php";
                 </div>
             </div>
         </section>
-        <script src="./script.js"></script>
+        <script src="./JavaScript/script.js"></script>
     </body>
 <?php
 require "Templates/footer.php"
